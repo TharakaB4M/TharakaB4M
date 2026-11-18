@@ -38,7 +38,7 @@ Outside of university, I run a **wedding sound system business**. It gives me fi
 ## 🛠️ Technical Skills
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,cpp,arduino,python,php,js,react,html,css,androidstudio,mysql,firebase,fastapi,git,github,vscode,idea&perline=10&theme=dark" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,cpp,arduino,python,php,js,react,nextjs,html,css,androidstudio,mysql,supabase,firebase,fastapi,vercel,git,github,vscode,idea&perline=10&theme=dark" alt="Tech Stack" />
 </div>
 
 <br/>
@@ -48,7 +48,7 @@ Outside of university, I run a **wedding sound system business**. It gives me fi
 | **Enterprise Java** | Jakarta EE 10, EJB (Stateless, Stateful, Singleton, Message-Driven Beans), JPA / Hibernate, JMS (ActiveMQ), JAX-RS, Spring Boot, Maven, Payara Server |
 | **Design & Architecture** | GoF design patterns (Decorator, Composite, Chain of Responsibility, Flyweight, Interpreter, State, Strategy, Observer, Factory), DAO, Facade, layered architecture |
 | **Desktop** | Java, Java Swing, JasperReports, Apache Ant |
-| **Web & Backend** | Python, FastAPI, SQLAlchemy, PHP, React, Vite, JavaScript (ES6+), HTML5, CSS3, Framer Motion |
+| **Web & Backend** | Next.js, React, Vite, Python, FastAPI, SQLAlchemy, PHP, JavaScript (ES6+), HTML5, CSS3, Framer Motion, Supabase (Auth, row-level security, storage), Vercel |
 | **Embedded & IoT** | C++, ESP32, PlatformIO, Arduino Framework, embedded HTTP server, mDNS |
 | **Mobile & Databases** | Android SDK (Java), MySQL (JDBC), Firebase Authentication, Cloud Firestore |
 | **AI & Analytics** | Google Gemini API, OpenAI Whisper, IBM SPSS Statistics |
@@ -62,6 +62,7 @@ Outside of university, I run a **wedding sound system business**. It gives me fi
 | :--- | :--- | :--- |
 | **[🏫 Tuition-Manager](https://github.com/TharakaB4M/Tuition-Manager)** | Desktop tuition-centre management system with role-based access control (Master Admin, Admin, Cashier, Attendance Marker), student, teacher and staff management, hall scheduling, fee and salary handling, and automated `.jasper` reporting. | `Java` `Java Swing` `MySQL` `JasperReports` `NetBeans` |
 | **[🔐 ESP32 Smart Access Control](https://github.com/TharakaB4M/esp32-smart-access-control)** | Embedded access-control prototype with an on-device HTTP login interface. Includes three-attempt lockout protection, multi-LED hardware status indicators, automatic fallback Access Point mode, and `jiat.local` mDNS routing. | `C++` `ESP32` `PlatformIO` `Arduino` `HTML/JS` |
+| **[🎟️ Afterglow Ticket Booking](https://github.com/TharakaB4M/online-party-ticket-booking)** | Ticket request and manual bank-transfer platform for a school leavers' party, with no student login required. Students book and track with a private reference and matching email, upload receipts to private storage, and receive PDF tickets by email. Organizers verify bookings, review receipts, issue tickets and check guests in by scanning private QR codes on a phone, with duplicate-scan detection. Includes an organizer dashboard with verified totals, an owner-only audit log, Supabase row-level security, and a WhatsApp fallback when email resend limits are reached. | `Next.js` `Supabase` `PostgreSQL (RLS)` `Gmail SMTP` `Vercel` |
 | **🎧 Equipment Rental & Event Booking System** | Booking platform designed around my wedding sound business. Models the booking lifecycle (Pending → Confirmed → Delivered → Returned → Closed) with the State pattern, with Strategy-based pricing, Decorator add-ons, Observer notifications and Factory-built packages. Optimised with double-booking prevention through locking, indexed availability queries and price-calculation caching. *(In development)* | `Java 17` `Spring Boot` `Maven` `MySQL` |
 | **🏙️ SmartCity360** | Design-pattern showcase for a smart-city scenario, implementing Decorator, Composite, Chain of Responsibility, Flyweight and Interpreter, with a browser UI and REST endpoints tested through Postman. | `Java 17` `Maven` `Payara` `REST` |
 | **🛍️ TechMart Online** | Jakarta EE 10 e-commerce modernisation using stateless, stateful and singleton session beans, message-driven beans over JMS (ActiveMQ), JAX-RS APIs, and JPA with optimistic locking. Load-tested with JMeter and ApacheBench. | `Jakarta EE 10` `Payara 6` `ActiveMQ` `JPA` `JAX-RS` |
